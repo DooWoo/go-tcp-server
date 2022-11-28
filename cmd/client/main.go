@@ -6,8 +6,22 @@ import (
 	"github.com/DooWoo/go-tcp-server/packet"
 	"github.com/lucasepe/codename"
 	"net"
+	"sync"
 	"time"
 )
+
+func main() {
+	var wg sync.WaitGroup
+	var num int = 5
+	wg.Add(num)
+	for i:=0; i< num; i++ {
+		go func(i int) {
+			defer wg.Done()
+			startClient(i)
+		}(i+1)
+	}
+	wg.Wait()
+}
 
 func startClient(i int) {
 	quit := make(chan struct{})
