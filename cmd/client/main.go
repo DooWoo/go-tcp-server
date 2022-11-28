@@ -26,7 +26,7 @@ func main() {
 func startClient(i int) {
 	quit := make(chan struct{})
 	done := make(chan struct{})
-	conn, err := net.Dial("tcp", "8881")
+	conn, err := net.Dial("tcp", ":8881")
 	if err != nil {
 		fmt.Println("dial error:", err)
 		return
