@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="030fc14a-9f78-4d92-9397-d8db6ec3879d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frame/frame.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packet/packet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -91,7 +95,16 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2122" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1669603802055">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="2122" y="331" width="670" height="676" key="search.everywhere.popup/0.0.3440.1440@0.0.3440.1440" timestamp="1669603802055" />
   </component>
 </project>
